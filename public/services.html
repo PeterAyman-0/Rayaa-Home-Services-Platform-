@@ -12,11 +12,11 @@
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Arabic:wdth,wght@62.5..100,100..900&display=swap"
+        rel="stylesheet" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="p.css" />
@@ -41,7 +41,11 @@
         body {
             overflow-x: hidden;
             width: 100%;
-            font-family: 'Inter', sans-serif;
+            font-family: "Noto Sans Arabic", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            direction: rtl;
             background-color: #fff;
         }
 
@@ -121,7 +125,7 @@
 
         /* ====== Services Section ====== */
         .services-section {
-            padding: 60px 5% 300px;
+            padding: 60px 5% 80px;
             background-color: #f4f8ff;
             position: relative;
             z-index: 5;
@@ -325,46 +329,14 @@
         </section>
     </main>
 
-    <footer>
-        <div class="footer">
-            <img src="Vector 3.png" class="footer-img" />
-            <div class="logo-col">
-                <img class="logo1" alt="logo" src="Group 12.png" />
-                <p class="copyright">
-                    رعاية… لأن العناية ببيتك تستحق مستوى أعلى<br> من الجودة. نقدم خدمات
-                    نظافة وصيانة متكاملة<br> بتجربة سهلة وموثوقة تضمن لك الراحة<br> في كل خطوة."
-                </p>
-            </div>
-            <div class="link">
-                <p>استكشف</p>
-                <ul>
-                    <li><a href="index.html">الصفحه الرئيسه</a></li>
-                    <li><a href="#">تفاصيل عن رعايه</a></li>
-                    <li><a href="services.html">الخدمات</a></li>
-                </ul>
-            </div>
-            <div class="link">
-                <p>تواصل معنا</p>
-                <ul>
-                    <li>
-                        <img src="Group 24.png">
-                        <span> كينج مريوط</span>
-                    </li>
-                    <li>
-                        <img src="Group 25.png"> <span>19392</span>
-                    </li>
-                    <li>
-                        <img src="Group 26.png">
-                        <span>info@kma.edu.eg</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+
+
+
 
 
 
     <!-- Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="script.js"></script>
 </body>
 
